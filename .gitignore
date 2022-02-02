@@ -1,14 +1,30 @@
-*.iml
-.gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+
+# for gradle, IDEA
+.gradle
+.idea
+projectFilesBackup/
+
+build
+*.iml
+
+# key
+release.gradle
+
+# properties
+app/version.properties
+
+japanreleaseapikey.properties
+japandebugapikey.properties
+
+captures
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+
+# build time tracking
+build_time_taken.csv
+
+## bundler
+.bundle
+vendor/bundle
+
+
